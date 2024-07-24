@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PMA.Persistence.UnitOfWork
+namespace PMA.Persistence.UnitOfWorks
 {
     public class UnitOfWork : IUnitOfWork
     {

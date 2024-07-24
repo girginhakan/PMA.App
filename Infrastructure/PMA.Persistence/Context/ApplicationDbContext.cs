@@ -12,9 +12,7 @@ namespace PMA.Persistence.Context
     public class ApplicationDbContext : DbContext, IApplicationContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
-        {
-        }
-
+        { }
         public DbSet<Plant> Plants { get; set; }
 
         public DbSet<Category> Categories { get; set; }

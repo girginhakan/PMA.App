@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PMA.Application.Interfaces.Services
+namespace PMA.Application
 {
-    public interface IEmmailService
+    public static class ServiceRegistration
     {
-        bool Send(string to, string message);
+
     }
 }

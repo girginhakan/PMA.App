@@ -7,5 +7,6 @@ namespace PMA.WebAPI.Controllers
     [ApiController]
     public class PlantController : ControllerBase
     {
+
     }
 }

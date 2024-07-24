@@ -16,6 +16,6 @@ namespace PMA.Application.Dtos.Concrete
         public int WaterFrequency { get; set; }
         public string LightRequirement { get; set; }
         public string CareInstructions { get; set; }
-        public CategoryDto CategoryDto { get; set; }
+        public CategoryDto? Category { get; set; }
     }
 }

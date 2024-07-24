@@ -11,7 +11,7 @@ namespace PMA.Application.Dtos.Concrete
     {
         public string CategoryName { get; set; }
 
-        ICollection<PlantDto> PlantDtos { get; set; }
+        ICollection<PlantDto> Plants { get; set; }
 
     }
 }
